@@ -33,8 +33,8 @@ function App() {
     const fetchData = async () => {
       try {
         const [metricsRes, dataRes] = await Promise.all([
-          axios.get('http://127.0.0.1:8000/api/metrics'),
-          axios.get('http://127.0.0.1:8000/api/timeseries')
+          axios.get('https://p01--energy-dashboard-backend--l4hj4k4pylnz.code.run/api/metrics'),
+          axios.get('https://p01--energy-dashboard-backend--l4hj4k4pylnz.code.run/api/timeseries')
         ]);
         
         setMetrics(metricsRes.data);
