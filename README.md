@@ -24,10 +24,9 @@ Access the frontend dashboard at http://localhost:3000.
 
 Access the backend API at http://localhost:8000.
 
-Live Deployment Links
-Frontend (Vercel): [INSERT_VERCEL_LINK_HERE]
-
-Backend (Heroku): [INSERT_HEROKU_LINK_HERE]
+## Live Deployment Links
+- **Frontend (Vercel)**: https://qxw-energy-dashboard.vercel.app
+- **Backend (Northflank)**: https://p01--energy-dashboard-backend--l4hj4k4pylnz.code.run
 
 AI Tools Used
 AI tools (ChatGPT/Gemini) were used to assist in generating boilerplate Pandas logic for data merging, configuring the Dockerfiles, and scaffolding the React components.
